@@ -3,5 +3,125 @@
     "title": "1",
     "image": "https://spinningchips.github.io/game-assets/1/meta/apple-touch-icon.png",
     "link": "https://spinningchips.github.io/game-assets/1"
+  },
+  {
+    "title": "1v1 lol",
+    "image": "https://spinningchips.github.io/game-assets/1v1lol/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/1v1lol"
+  },
+  {
+    "title": "1v1 Space",
+    "image": "https://spinningchips.github.io/game-assets/1v1space/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/1v1space"
+  },
+  {
+    "title": "10 Minutes Till Dawn",
+    "image": "https://spinningchips.github.io/game-assets/10-minutes-till-dawn/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/10-minutes-till-dawn"
+  },
+  {
+    "title": "99balls",
+    "image": "https://spinningchips.github.io/game-assets/99balls/99-balls-evo.jpg",
+    "link": "https://spinningchips.github.io/game-assets/99balls"
+  },
+  {
+    "title": "100 Player Pong",
+    "image": "https://spinningchips.github.io/game-assets/100ng/100ng.jpg",
+    "link": "https://spinningchips.github.io/game-assets/100ng"
+  },
+  {
+    "title": "2048",
+    "image": "https://spinningchips.github.io/game-assets/2048/2048.png",
+    "link": "https://spinningchips.github.io/game-assets/2048"
+  },
+  {
+    "title": "2048 Multitask",
+    "image": "https://spinningchips.github.io/game-assets/2048-multitask/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/2048-multitask"
+  },
+  {
+    "title": "9007199254740992",
+    "image": "https://spinningchips.github.io/game-assets/9007199254740992/logo-4.png",
+    "link": "https://spinningchips.github.io/game-assets/9007199254740992"
+  },
+  {
+    "title": "A Dance of Fire And Ice",
+    "image": "https://spinningchips.github.io/game-assets/a-dance-of-fire-and-ice/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/a-dance-of-fire-and-ice"
+  },
+  {
+    "title": "Achievement Unlocked",
+    "image": "https://spinningchips.github.io/game-assets/achievementunlocked/achievementunlocked.png",
+    "link": "https://spinningchips.github.io/game-assets/achievementunlocked"
+  },
+  {
+    "title": "A Dark Room",
+    "image": "https://spinningchips.github.io/game-assets/adarkroom/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/adarkroom"
+  },
+  {
+    "title": "Adrenaline Challenge",
+    "image": "https://spinningchips.github.io/game-assets/adrenalinechallenge/adrenalinechallenge.jpg",
+    "link": "https://spinningchips.github.io/game-assets/adrenalinechallenge"
+  },
+  {
+    "title": "Adventure Drivers",
+    "image": "https://spinningchips.github.io/game-assets/adventure-drivers/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/adventure-drivers"
+  },
+  {
+    "title": "Ages of Conflict",
+    "image": "https://spinningchips.github.io/game-assets/ages-of-conflict/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/ages-of-conflict"
+  },
+  {
+    "title": "Alien Hominid",
+    "image": "https://spinningchips.github.io/game-assets/alienhominid/alienhominid.jpg",
+    "link": "https://spinningchips.github.io/game-assets/alienhominid"
+  },
+  {
+    "title": "Align 4",
+    "image": "https://spinningchips.github.io/game-assets/align-4/board.png",
+    "link": "https://spinningchips.github.io/game-assets/align-4"
+  },
+  {
+    "title": "Amazing Rope Police",
+    "image": "https://spinningchips.github.io/game-assets/amazing-rope-police/splash.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/amazing-rope-police"
+  },
+  {
+    "title": "Amidst the Clouds",
+    "image": "https://spinningchips.github.io/game-assets/amidst-the-clouds/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/amidst-the-clouds"
+  },
+  {
+    "title": "Among us",
+    "image": "https://spinningchips.github.io/game-assets/among-us/red.png",
+    "link": "https://spinningchips.github.io/game-assets/among-us"
+  },
+  {
+    "title": "Angry Sharks",
+    "image": "https://spinningchips.github.io/game-assets/angry-sharks/assets/favicon/icon-512x512.png",
+    "link": "https://spinningchips.github.io/game-assets/angry-sharks"
+  },
+  {
+    "title": "Aquapark Slides",
+    "image": "https://spinningchips.github.io/game-assets/aquapark-slides/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/aquapark-slides"
+  },
+  {
+    "title": "Astray",
+    "image": "https://spinningchips.github.io/game-assets/astray/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/astray"
+  },
+  {
+    "title": "Avalanche",
+    "image": "https://spinningchips.github.io/game-assets/avalanche/avalanche.png",
+    "link": "https://spinningchips.github.io/game-assets/avalanche"
+  },
+  {
+    "title": "Awesome Tanks 2",
+    "image": "https://spinningchips.github.io/game-assets/awesometanks2/awesometanks2.jpg",
+    "link": "https://spinningchips.github.io/game-assets/awesometanks2"
   }
 ]
