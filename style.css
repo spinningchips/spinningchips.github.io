@@ -1,0 +1,55 @@
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+.card {
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background-color: white;
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.card .header {
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.card>.body {
+    font-size: 4rem;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}
+
+#create {
+    background-color: #00A300;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #00D100;
+    border: none;
+    outline: none;
+}
+
+#create:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+}
