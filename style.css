@@ -6,12 +6,8 @@
 }
 
 .card {
-    cursor: pointer;
-    padding: 1rem;
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.3s;
-    border-radius: 5px;
+    position: relative;
+    display: inline-block;
 }
 
 .card:hover {
@@ -33,7 +29,11 @@
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-.card>.body {
+.img {
+    display: block;
+}
+
+.card .body {
     font-size: 4rem;
     color: #777;
 }
@@ -42,19 +42,14 @@
     display: none;
 }
 
-#create {
-    background-color: #00A300;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    border-radius: 5px;
-    transition: all ease 0.1s;
-    box-shadow: 0px 5px 0px 0px #00D100;
-    border: none;
-    outline: none;
+h1 {
+    text-align: center;
 }
 
-#create:active {
-    transform: translateY(5px);
-    box-shadow: 0px 0px 0px 0px #a29bfe;
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
 }
