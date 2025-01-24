@@ -8,15 +8,17 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
     users = data.map(user=> {
         const card = userCardTemplate.content.cloneNode(true).children[0]
         const header = card.querySelector("[data-header]")
+        const img = card.querySelector("[data-img]")
 
         // adding content into the query selected i.e header and body
         header.textContent = user.title
         //card.textContent = user.title
         card.href = user.link
+        img.src = user.image
         userCardContainer.append(card)
 
         // return the result after successfull fetch
-        return {title: user.title, description: user.link, element: card}
+        return {title: user.title, Imgdescription: user.image,  description: user.link, element: card}
     });
 
 })
