@@ -6,12 +6,15 @@
 }
 
 .card {
-    cursor: pointer;
-    padding: 1rem;
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.3s;
-    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .card:hover {

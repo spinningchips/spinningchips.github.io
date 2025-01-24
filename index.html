@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,21 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <script src="content/js/game.js" defer></script>
 </head>
+
 <body>
-    <div style="text-align: center;"><h1>Spinningchips.com!</h1></div>
-    
+    <div style="text-align: center;">
+        <h1>Spinningchips.com!</h1>
+    </div>
+
     <style>
         div {
             color: #5887ff;
         }
     </style>
-    
-    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f1f1f1;">
-        
+
+    <header
+        style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background-color: #f1f1f1;">
+
         <div>
             <a href="index.html"><img src="Logo1.png" alt="Logo" style="height: 50px;"></a>
         </div>
-        
+
         <nav>
             <a href="index.html" style="margin: 0 15px; text-decoration: none; color: #5887ff;">Home</a>
             <a href="about.html" style="margin: 0 15px; text-decoration: none; color: #5887ff;">About Us</a>
@@ -38,13 +43,16 @@
             border-radius: 10px;
             margin: 0 auto;
         }
+
         .image-container {
             position: relative;
             display: inline-block;
         }
+
         .image-container img {
             display: block;
         }
+
         .image-container .text {
             position: absolute;
             top: 50%;
@@ -56,85 +64,36 @@
             font-weight: bold;
             background-color: rgba(255, 255, 255, 0.7);
         }
-        h1 { text-align: center; }
-        p { text-align: center; }
-        div { text-align: center; }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
     </style>
+
     <div class="search-wrapper">
         <input type="search" id="search" data-search="" placeholder="Search for a game...">
     </div>
+    
     <div class="user-cards" data-user-cards-container>
         <template data-user-template>
             <a class="card">
-                <div class="header" data-header></div>
                 <img class="img" height="100" width="100" data-img>
+                <div class="header" data-header></div>
             </a>
         </template>
     </div>
 
-    <table style="width: 50%; text-align: center;">
-        <tr>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/1" target="_blank">
-                        <img src="https://spinningchips.github.io/game-assets/1/meta/apple-touch-icon.png" height="100" width="100">
-                        <div class="text">1</div>
-                    </a>
-                </div>
-            </td>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/1v1lol" target="_blank">
-                        <img src="https://spinningchips.github.io/game-assets/1v1lol/splash.png" height="100" width="100">
-                        <div class="text">1v1 lol</div>
-                    </a>
-                </div>
-            </td>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/1v1space" target="_blank">
-                        <img src="https://spinningchips.github.io/game-assets/1v1space/splash.png" height="100" width="100">
-                        <div class="text">1v1 Space</div>
-                    </a>
-                </div>
-            </td>
-        <br>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/10-minutes-till-dawn" target="_blank">
-                        <img src="https://spinningchips.github.io/game-assets/10-minutes-till-dawn/splash.png" height="100" width="100">
-                        <div class="text">10 Minutes Till Dawn</div>
-                    </a>
-                </div>
-            </td>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/99balls" target="_blank">
-                        <img src="https://spinningchips.github.io/game-assets/99balls/99-balls-evo.jpg" height="100" width="100">
-                        <div class="text">99 Balls</div>
-                    </a>
-                </div>
-            </td>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/100ng" target="_blank">
-                        <img src="https://spinningchips.github.io/game-assets/100ng/100ng.jpg" height="100" width="100">
-                        <div class="text">100 Player Pong</div>
-                    </a>
-                </div>
-            </td>
-            <td>
-                <div class="image-container">
-                    <a href="https://spinningchips.github.io/game-assets/2048">
-                        <img src="https://spinningchips.github.io/game-assets/2048/2048.png" height="100" width="100">
-                        <div class="text">2048</div>
-                    </a>
-                </div>
-            </td>
-        </tr>
-    </table>
-    </body>
-    <footer style="text-align: center; padding: 20px; background-color: #f1f1f1; position: fixed; width: 100%; bottom: 0;">
-        <p>&copy; 2025 Spinningchips.com. All rights reserved.</p>
-    </footer>
+</body>
+<footer style="text-align: center; padding: 20px; background-color: #f1f1f1; position: fixed; width: 100%; bottom: 0;">
+    <p>&copy; 2025 Spinningchips.com. All rights reserved.</p>
+</footer>
+
 </html>
