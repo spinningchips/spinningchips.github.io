@@ -283,5 +283,65 @@
     "title": "Cell Machine",
     "image": "https://spinningchips.github.io/game-assets/cell-machine/img/te9nDu.png",
     "link": "https://spinningchips.github.io/game-assets/cell-machine"
+  },
+  {
+    "title": "Champion Island",
+    "image": "https://spinningchips.github.io/game-assets/champion-island/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/champion-island"
+  },
+  {
+    "title": "Champion Archer",
+    "image": "https://spinningchips.github.io/game-assets/championarcher/championarcher.png",
+    "link": "https://spinningchips.github.io/game-assets/championarcher"
+  },
+  {
+    "title": "Checkers",
+    "image": "https://spinningchips.github.io/game-assets/checkers/image.png",
+    "link": "https://spinningchips.github.io/game-assets/checkers"
+  },
+  {
+    "title": "Chess",
+    "image": "https://spinningchips.github.io/game-assets/chess/84391856-3910-4B44-AF7E-ACF1056658C2.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/chess"
+  },
+  {
+    "title": "Chill Radio",
+    "image": "https://spinningchips.github.io/game-assets/chill-radio/img/icon.png",
+    "link": "https://spinningchips.github.io/game-assets/chill-radio"
+  },
+  {
+    "title": "Chrome Dino",
+    "image": "https://spinningchips.github.io/game-assets/chrome-dino/icons/icon-256.png",
+    "link": "https://spinningchips.github.io/game-assets/chrome-dino"
+  },
+  {
+    "title": "Circlo",
+    "image": "https://spinningchips.github.io/game-assets/circlo/img/icon.png",
+    "link": "https://spinningchips.github.io/game-assets/circlo"
+  },
+  {
+    "title": "Cluster Rush",
+    "image": "https://spinningchips.github.io/game-assets/cluster-rush/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/cluster-rush"
+  },
+  {
+    "title": "CMM Client",
+    "image": "https://spinningchips.github.io/game-assets/CMM-Client/EC4B216C-B637-41A3-A3D9-79D4048DD7A3.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/CMM-Client"
+  },
+  {
+    "title": "CN Ping Pong",
+    "image": "https://spinningchips.github.io/game-assets/cnpingpong/tabletennisultimate.png",
+    "link": "https://spinningchips.github.io/game-assets/cnpingpong"
+  },
+  {
+    "title": "Connect 3",
+    "image": "https://spinningchips.github.io/game-assets/connect3/connect3.png",
+    "link": "https://spinningchips.github.io/game-assets/connect3"
+  },
+  {
+    "title": "Cookie Clicker",
+    "image": "https://spinningchips.github.io/game-assets/cookie-clicker/cookie1.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/cookie-clicker"
   }
 ]
