@@ -1,17 +1,6 @@
-:root {
-    --1blue: #dceeff;
-    --2blue: #94b0da;
-    --1grey: #8f9182;
-    --2grey: #505a5b;
-    --3grey: #343f3e;
-
-    --black: #000000;
-}
-
 .body {
     background-color: black;
     width: 100vw;
-    background-image: linear-gradient(to bottom right, #1a1919, #505050);
     background-position: 0% 0%;
     background-size: 12vmin 12vmin;
     position: absolute;
