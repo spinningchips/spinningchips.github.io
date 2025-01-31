@@ -57,5 +57,7 @@ p {
 }
 
 div {
-    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    background-image: linear-gradient(to bottom right, #1a1919, #242425);
 }
