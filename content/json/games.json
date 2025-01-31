@@ -393,5 +393,100 @@
     "title": "Dante",
     "image": "https://spinningchips.github.io/game-assets/dante/splash.png",
     "link": "https://spinningchips.github.io/game-assets/dante"
+  },
+  {
+    "title": "Deal or No Deal",
+    "image": "https://spinningchips.github.io/game-assets/deal-or-no-deal/index.jpg",
+    "link": "https://spinningchips.github.io/game-assets/deal-or-no-deal"
+  },
+  {
+    "title": "Death Run 3d",
+    "image": "https://spinningchips.github.io/game-assets/death-run-3d/img/death.png",
+    "link": "https://spinningchips.github.io/game-assets/death-run-3d"
+  },
+  {
+    "title": "Deepest Sword",
+    "image": "https://spinningchips.github.io/game-assets/deepest-sword/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/deepest-sword"
+  },
+  {
+    "title": "Defend the Tank",
+    "image": "https://spinningchips.github.io/game-assets/defend-the-tank/images/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/defend-the-tank"
+  },
+  {
+    "title": "Doctor Acorn 2",
+    "image": "https://spinningchips.github.io/game-assets/doctor-acorn2/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/doctor-acorn2"
+  },
+  {
+    "title": "Doge 2048",
+    "image": "https://spinningchips.github.io/game-assets/doge2048/doge1.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/doge2048"
+  },
+  {
+    "title": "DogeMiner",
+    "image": "https://spinningchips.github.io/game-assets/DogeMiner/img/dogeminer_300x300.png",
+    "link": "https://spinningchips.github.io/game-assets/DogeMiner"
+  },
+  {
+    "title": "DogeMiner 2",
+    "image": "https://spinningchips.github.io/game-assets/Dogeminer2/thumb.jpg",
+    "link": "https://spinningchips.github.io/game-assets/Dogeminer2"
+  },
+  {
+    "title": "Doodle Jump",
+    "image": "https://spinningchips.github.io/game-assets/doodle-jump/doodle.png",
+    "link": "https://spinningchips.github.io/game-assets/doodle-jump"
+  },
+  {
+    "title": "DOOMORI",
+    "image": "https://spinningchips.github.io/game-assets/DOOMORI/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/DOOMORI"
+  },
+  {
+    "title": "Dragon VS Bricks",
+    "image": "https://spinningchips.github.io/game-assets/dragon-vs-bricks/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/dragon-vs-bricks"
+  },
+  {
+    "title": "Draw the Hill",
+    "image": "https://spinningchips.github.io/game-assets/draw-the-hill/icons/icon-512.png",
+    "link": "https://spinningchips.github.io/game-assets/draw-the-hill"
+  },
+  {
+    "title": "Drive Mad",
+    "image": "https://spinningchips.github.io/game-assets/drive-mad/logo.jpg",
+    "link": "https://spinningchips.github.io/game-assets/drive-mad"
+  },
+  {
+    "title": "Duke Nukem 2",
+    "image": "https://spinningchips.github.io/game-assets/duke-nukem-2/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/duke-nukem-2"
+  },
+  {
+    "title": "Edge Surf",
+    "image": "https://spinningchips.github.io/game-assets/edge-surf/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/edge-surf"
+  },
+  {
+    "title": "Edge Not Found",
+    "image": "https://spinningchips.github.io/game-assets/edgenotfound/edge.png",
+    "link": "https://spinningchips.github.io/game-assets/edgenotfound"
+  },
+  {
+    "title": "Eel Slap",
+    "image": "https://spinningchips.github.io/game-assets/eel-slap/eel-slap.png",
+    "link": "https://spinningchips.github.io/game-assets/eel-slap"
+  },
+  {
+    "title": "Eggy Car",
+    "image": "https://spinningchips.github.io/game-assets/eggycar/eggy-car.png",
+    "link": "https://spinningchips.github.io/game-assets/eggycar"
+  },
+  {
+    "title": "Endless War 3",
+    "image": "https://spinningchips.github.io/game-assets/endlesswar3/endlesswar3.png",
+    "link": "https://spinningchips.github.io/game-assets/endlesswar3"
   }
 ]
