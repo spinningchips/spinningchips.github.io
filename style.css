@@ -1,5 +1,4 @@
 .body {
-    background-color: black;
     width: 100vw;
     background-position: 0% 0%;
     background-size: 12vmin 12vmin;
@@ -58,6 +57,5 @@ p {
 
 div {
     color: whitesmoke;
-    background-color: black;
     background-image: linear-gradient(to bottom right, #1a1919, #242425);
 }
