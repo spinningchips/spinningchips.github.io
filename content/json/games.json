@@ -343,5 +343,55 @@
     "title": "Cookie Clicker",
     "image": "https://spinningchips.github.io/game-assets/cookie-clicker/cookie1.jpeg",
     "link": "https://spinningchips.github.io/game-assets/cookie-clicker"
-  }
+  },
+  {
+    "title": "Core Ball",
+    "image": "https://spinningchips.github.io/game-assets/core-ball/pr_source.png",
+    "link": "https://spinningchips.github.io/game-assets/core-ball"
+  },
+  {
+    "title": "Craftmine",
+    "image": "https://spinningchips.github.io/game-assets/craftmine/images/craftmine.png",
+    "link": "https://spinningchips.github.io/game-assets/craftmine"
+  },
+  {
+    "title": "Creative Kill Chamber",
+    "image": "https://spinningchips.github.io/game-assets/creativekillchamber/creativekillchamber.jpg",
+    "link": "https://spinningchips.github.io/game-assets/creativekillchamber"
+  },
+  {
+    "title": "Crossy Road",
+    "image": "https://spinningchips.github.io/game-assets/crossyroad/crossyroad.png",
+    "link": "https://spinningchips.github.io/game-assets/crossyroad"
+  },
+  {
+    "title": "CSGO Clicker",
+    "image": "https://spinningchips.github.io/game-assets/csgo-clicker/images/case1.png",
+    "link": "https://spinningchips.github.io/game-assets/csgo-clicker"
+  },
+  {
+    "title": "Cut the Rope",
+    "image": "https://spinningchips.github.io/game-assets/ctr/logo.png",
+    "link": "https://spinningchips.github.io/game-assets/ctr"
+  },
+  {
+    "title": "Cut the Rope Holiday Gift",
+    "image": "https://spinningchips.github.io/game-assets/ctr-holiday/Holiday_Gift.webp",
+    "link": "https://spinningchips.github.io/game-assets/ctr-holiday"
+  },
+  {
+    "title": "Cut the Rope Time Travel",
+    "image": "https://spinningchips.github.io/game-assets/ctr-tr/logo.png",
+    "link": "https://spinningchips.github.io/game-assets/ctr-tr"
+  },
+  {
+    "title": "2048 Cupcakes",
+    "image": "https://spinningchips.github.io/game-assets/cupcake2048/favicon.png",
+    "link": "https://spinningchips.github.io/game-assets/cupcake2048"
+  },
+  {
+    "title": "Dante",
+    "image": "https://spinningchips.github.io/game-assets/dante/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/dante"
+  },
 ]
