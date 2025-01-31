@@ -7,7 +7,7 @@
     top: 0px;
     overflow-x: hidden;
     margin-bottom: 100px;
-}
+
 
 
 .user-cards {
@@ -58,4 +58,5 @@ p {
 div {
     color: whitesmoke;
     background-color: black
+}
 }
