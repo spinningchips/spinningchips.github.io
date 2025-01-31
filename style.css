@@ -1,14 +1,16 @@
-.body {
+body {
+    background-color: var(--bg);
+    height: 100vh;
     width: 100vw;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
     background-position: 0% 0%;
     background-size: 12vmin 12vmin;
     position: absolute;
     left: 0px;
     top: 0px;
     overflow-x: hidden;
-    margin-bottom: 100px;
-
-
+    z-index: 0;
+}
 
 .user-cards {
     display: grid;
@@ -58,5 +60,4 @@ p {
 div {
     color: whitesmoke;
     background-color: black
-}
 }
