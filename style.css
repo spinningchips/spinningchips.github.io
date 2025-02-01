@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     justify-content: space-between;  /* Ensures content is spaced properly */
     padding: 0 20px;
-
+}
 
 /* Navbar */
 nav {
@@ -179,5 +179,4 @@ footer {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 3rem;
-}
 }
