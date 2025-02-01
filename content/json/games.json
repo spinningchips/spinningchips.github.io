@@ -488,5 +488,35 @@
     "title": "Endless War 3",
     "image": "https://spinningchips.github.io/game-assets/endlesswar3/endlesswar3.png",
     "link": "https://spinningchips.github.io/game-assets/endlesswar3"
+  },
+  {
+    "title": "Escaping the Prison",
+    "image": "https://spinningchips.github.io/game-assets/escapingtheprison/escapingtheprison.jpg",
+    "link": "https://spinningchips.github.io/game-assets/escapingtheprison"
+  },
+  {
+    "title": "Evil Glitch",
+    "image": "https://spinningchips.github.io/game-assets/evil-glitch/evil.png",
+    "link": "https://spinningchips.github.io/game-assets/evil-glitch"
+  },
+  {
+    "title": "Evolution",
+    "image": "https://spinningchips.github.io/game-assets/evolution/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/evolution"
+  },
+  {
+    "title": "Exo",
+    "image": "https://spinningchips.github.io/game-assets/exo/img/small.jpg",
+    "link": "https://spinningchips.github.io/game-assets/exo"
+  },
+  {
+    "title": "Factory Balls",
+    "image": "https://spinningchips.github.io/game-assets/factoryballs/images/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/factoryballs"
+  },
+  {
+    "title": "Fair Squares",
+    "image": "https://spinningchips.github.io/game-assets/fairsquares/index.icon.png",
+    "link": "https://spinningchips.github.io/game-assets/fairsquares"
   }
 ]

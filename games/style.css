@@ -52,6 +52,8 @@ body {
   display: block;
   width: 10rem;
   height: 10rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
 }
 
 
@@ -151,7 +153,6 @@ header h1 {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: whitesmoke;
-
 }
 
 footer {
