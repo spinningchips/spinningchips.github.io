@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     animation: backgroundAnimation 15s ease infinite;
-}
+
 
 /* Background Animation */
 @keyframes backgroundAnimation {
@@ -194,4 +194,6 @@ footer {
     color: whitesmoke;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
 }
