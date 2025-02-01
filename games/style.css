@@ -28,8 +28,16 @@ body {
   position: relative;
   display: inline-block;
   overflow: hidden;
+  background-color: #222;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
 
 .card .header {
   position: absolute;
@@ -56,6 +64,9 @@ body {
   transition: transform 0.3s ease;
 }
 
+.hide {
+  display: none;
+}
 
 .card .body {
   font-size: 4rem;

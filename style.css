@@ -13,7 +13,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: space-between;  /* Ensures content is spaced properly */
+    justify-content: space-between;
+    /* Ensures content is spaced properly */
     padding: 0 20px;
 }
 
@@ -54,7 +55,8 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5rem;  /* Spacing for the title and search bar */
+    margin-top: 5rem;
+    /* Spacing for the title and search bar */
     flex-grow: 1;
 }
 
@@ -108,7 +110,8 @@ h1:hover {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
-    width: 10rem;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .card {
@@ -158,6 +161,10 @@ h1:hover {
 
 .card:hover .img {
     transform: scale(1.1);
+}
+
+.hide {
+    display: none;
 }
 
 /* Card Body */
