@@ -3,7 +3,6 @@ body {
     height: 100vh;
     width: 100vw;
     background: rgb(0,0,0);
-    background: linear-gradient(42deg, rgba(0,0,0,1) 0%, rgba(94,124,124,1) 100%);
     background-position: 0 0;
     background-size: 12vmin 12vmin;
     position: absolute;
