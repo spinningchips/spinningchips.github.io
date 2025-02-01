@@ -151,8 +151,8 @@ h1:hover {
 
 .img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 10rem;
+    height: 10rem;
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
