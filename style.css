@@ -1,35 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     height: 100vh;
     width: 100vw;
     background: rgb(0, 0, 0);
-    background: linear-gradient(34deg, rgba(0, 0, 0, 1) 1%, rgba(9, 46, 47, 1) 97%);
-
-    background-position: 0 0;
-    background-size: 12vmin 12vmin;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 10%, rgba(9, 46, 47, 1) 90%);
     position: absolute;
     top: 0;
     left: 0;
     overflow-x: hidden;
     z-index: 0;
     margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: backgroundAnimation 15s ease infinite;
 }
 
+/* Background Animation */
+@keyframes backgroundAnimation {
+    0% { background: linear-gradient(45deg, rgba(0, 0, 0, 1) 10%, rgba(9, 46, 47, 1) 90%); }
+    50% { background: linear-gradient(45deg, rgba(9, 46, 47, 1) 10%, rgba(0, 0, 0, 1) 90%); }
+    100% { background: linear-gradient(45deg, rgba(0, 0, 0, 1) 10%, rgba(9, 46, 47, 1) 90%); }
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+}
 
 .user-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
     margin-top: 2rem;
-
+    transition: grid-template-columns 0.3s ease;
 }
 
-
+/* Card Style */
 .card {
     position: relative;
-    display: inline-block;
     overflow: hidden;
+    background-color: #222;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
 
 .card .header {
     position: absolute;
@@ -37,123 +81,117 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.5rem;
-    background-color: #000000;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: whitesmoke;
-    opacity: 0.8;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    opacity: 0.9;
+    text-align: center;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
+.card:hover .header {
+    opacity: 1;
+    transform: translate(-50%, -60%);
+}
 
 .img {
     display: block;
-    width: 10rem;
-    height: 10rem;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
 }
 
+.card:hover .img {
+    transform: scale(1.1);
+}
 
+/* Card Body */
 .card .body {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #777;
     text-align: center;
+    padding: 1rem;
 }
-
 
 .hide {
     display: none;
 }
 
-
-h1 {
-    text-align: center;
-    font-size: 2rem;
-}
-
-p {
-    text-align: center;
-    font-size: 1.125rem;
-}
-
-
-div {
-    color: whitesmoke;
-    background-color: black;
-    padding: 1rem;
-    border-radius: 8px;
-}
-
-
+/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000000;
-    padding: 10px 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: whitesmoke;
-    opacity: 0.8;
+    background-color: #111;
+    padding: 15px 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    z-index: 100;
 }
 
 nav a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 1rem;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background 0.3s ease, transform 0.3s ease;
-    background-color: #024e68;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #1086ae;
+    background-color: #3a6b8a;
     color: #fff;
     transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-
-header h1 {
-    font-size: 2.5rem;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    background-color: #000000;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: whitesmoke;
-    opacity: 0.8;
-}
-
-
+/* Search Wrapper */
 .search-wrapper {
     text-align: center;
-    margin-top: 1rem;
-    background-color: #000000;
+    margin-top: 3rem;
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    color: whitesmoke;
-    opacity: 0.8;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
 }
 
 .search-wrapper input {
-    padding: 0.5rem;
+    padding: 1rem;
     font-size: 1.2rem;
     width: 50%;
     max-width: 400px;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: #000000;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    background-color: #333;
     color: whitesmoke;
-
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
 }
 
+.search-wrapper input:focus {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
 footer {
-    margin-top: 2rem;
+    margin-top: 4rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #111;
+    color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
