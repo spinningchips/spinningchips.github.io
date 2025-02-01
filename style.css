@@ -3,7 +3,7 @@ body {
     background-color: var(--bg);
     height: 100vh;
     width: 100vw;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 9%, transparent 9%);
+    background-color: palevioletred;
     background-position: 0 0;
     background-size: 12vmin 12vmin;
     position: absolute;
@@ -83,7 +83,6 @@ div {
 }
 
 
-/* Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -97,6 +96,7 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-size: 1rem;
+    background-color: #201f1f;
 }
 
 nav a:hover {
