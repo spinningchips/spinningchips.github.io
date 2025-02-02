@@ -121,7 +121,7 @@ h1:hover {
 /* Cards Layout */
 .user-cards {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 cards per row */
+    grid-template-columns: repeat(6, 1fr); /* 5 cards per row */
     gap: 1.5rem;
     margin-top: 2rem;
     width: 100%;
