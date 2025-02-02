@@ -208,9 +208,10 @@ footer {
 
 #create {
     background-color: rgba(9, 46, 47, 1);
-    padding: 1rem 2rem;
-    font-size: 10rem;
+    padding: .5rem 1rem;
+    font-size: 5rem;
     color: white;
+    text-align: center;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -225,10 +226,11 @@ footer {
 
 .play {
     background-color: rgba(9, 46, 47, 1);
-    padding: 1rem 2rem;
-    font-size: 9rem;
+    padding: .5rem 1rem;
+    font-size: 4rem;
     color: white;
     text-decoration: none;
+    text-align: center;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
