@@ -129,6 +129,7 @@ h1:hover {
     /* Ensures grid is centered */
 }
 
+/* Card */
 .card {
     position: relative;
     overflow: hidden;
@@ -136,7 +137,10 @@ h1:hover {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Ensure card takes full width available */
+    max-width: 200px; /* Adjust to make the cards smaller */
 }
+
 
 .card:hover {
     transform: translateY(-10px);
