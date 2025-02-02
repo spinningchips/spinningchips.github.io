@@ -121,7 +121,8 @@ h1:hover {
 /* Cards Layout */
 .user-cards {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); /* 5 cards per row */
+    grid-template-columns: repeat(6, 1fr);
+    /* 5 cards per row */
     gap: 1.5rem;
     margin-top: 2rem;
     width: 100%;
@@ -137,8 +138,10 @@ h1:hover {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 100%; /* Ensure card takes full width available */
-    max-width: 200px; /* Adjust to make the cards smaller */
+    width: 100%;
+    /* Ensure card takes full width available */
+    max-width: 200px;
+    /* Adjust to make the cards smaller */
 }
 
 
@@ -200,4 +203,22 @@ footer {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 3rem;
+}
+
+
+#create {
+    background-color: rgba(9, 46, 47, 1);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+#create:active {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
 }
