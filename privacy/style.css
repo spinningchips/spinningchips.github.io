@@ -1,1 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    color: whitesmoke;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 10%, rgba(9, 46, 47, 1) 90%);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;  /* Keeps content at the top */
+    align-items: center; /* Centers content horizontally */
+    padding: 0 20px;
+    text-align: center; /* Centers all text */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 25px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+header a:hover {
+    background-color: #3a6b8a;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Main content */
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 5rem;
+    padding: 2rem;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin-top: 3rem;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+footer p {
+    font-size: 1rem;
+}
