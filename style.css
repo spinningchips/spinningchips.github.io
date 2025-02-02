@@ -13,8 +13,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start;  /* Keeps everything at the top */
-    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start;
+    /* Keeps everything at the top */
+    align-items: center;
+    /* Centers content horizontally */
     padding: 0 20px;
 }
 
@@ -28,7 +30,8 @@ nav {
     border-radius: 25px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
     width: 100%;
-    max-width: 1200px; /* Centers navbar */
+    max-width: 1200px;
+    /* Centers navbar */
     position: sticky;
     top: 0;
     z-index: 100;
@@ -55,12 +58,16 @@ nav a:hover {
 .main-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers title, search bar, and cards */
-    margin-top: 5rem;  /* Spacing for the title and search bar */
+    align-items: center;
+    /* Centers title, search bar, and cards */
+    margin-top: 5rem;
+    /* Spacing for the title and search bar */
     flex-grow: 1;
     width: 100%;
-    max-width: 1200px; /* Ensures all content is centered */
-    text-align: center; /* Centers text */
+    max-width: 1200px;
+    /* Ensures all content is centered */
+    text-align: center;
+    /* Centers text */
 }
 
 h1 {
@@ -73,6 +80,11 @@ h1 {
 
 h1:hover {
     transform: scale(1.1);
+}
+
+/* DON'T FUCKING REMOVE */
+.hide {
+    display: none;
 }
 
 /* Search Wrapper */
@@ -113,7 +125,8 @@ h1:hover {
     gap: 1.5rem;
     margin-top: 2rem;
     width: 100%;
-    max-width: 1200px; /* Ensures grid is centered */
+    max-width: 1200px;
+    /* Ensures grid is centered */
 }
 
 .card {
