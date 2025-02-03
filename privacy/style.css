@@ -14,10 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start;  /* Keeps content at the top */
-    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start;
+    /* Keeps content at the top */
+    align-items: center;
+    /* Centers content horizontally */
     padding: 0 20px;
-    text-align: center; /* Centers all text */
+    text-align: center;
+    /* Centers all text */
 }
 
 /* Header */

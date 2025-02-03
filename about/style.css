@@ -14,10 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start;  /* Keeps content at the top */
-    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start;
+    /* Keeps content at the top */
+    align-items: center;
+    /* Centers content horizontally */
     padding: 0 20px;
-    text-align: center; /* Centers all text */
+    text-align: center;
+    /* Centers all text */
 }
 
 /* Header */
@@ -57,7 +60,8 @@ header a:hover {
 /* Main content */
 .main-content {
     width: 100%;
-    max-width: 1200px; /* Centers content */
+    max-width: 1200px;
+    /* Centers content */
     margin-top: 5rem;
     padding: 2rem;
     opacity: 0.9;
@@ -77,7 +81,8 @@ h1:hover {
     transform: scale(1.1);
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: Arial, sans-serif;
     font-size: 1.75rem;
     margin-bottom: 1.5rem;
@@ -91,7 +96,7 @@ h2, h3 {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     color: whitesmoke;
-     opacity: 0.9;
+    opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -104,7 +109,7 @@ footer {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 3rem;
-     opacity: 0.9;
+    opacity: 0.9;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -123,39 +128,39 @@ header div h1 {
 }
 
 .button {
-        background-color: #474747; 
-        border: none;
-        color: whitesmoke;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 8px;
-        transition: all 0.5s;
-      }
-      .button span {
-        cursor: pointer;
-        display: inline-block;
-        position: relative;
-        transition: 0.5s;
-      }
+    background-color: #474747;
+    border: none;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
 
-      .button span:after {
-        content: '\00bb';
-        position: absolute;
-        opacity: 0;
-        top: 0;
-        right: -20px;
-        transition: 0.5s;
-      }
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
 
-      .button:hover span {
-        padding-right: 25px;
-      }
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
 
-      .button:hover span:after {
-        opacity: 1;
-        right: 0;
-      }
-    
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
