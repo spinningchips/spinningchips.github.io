@@ -518,5 +518,50 @@
     "title": "Fair Squares",
     "image": "https://spinningchips.github.io/game-assets/fairsquares/index.icon.png",
     "link": "https://spinningchips.github.io/game-assets/fairsquares"
+  },
+  {
+    "title": "Fake Virus",
+    "image": "https://spinningchips.github.io/game-assets/fake-virus/icon.png",
+    "link": "https://spinningchips.github.io/game-assets/fake-virus"
+  },
+  {
+    "title": "Fancy Pants Adventures",
+    "image": "https://spinningchips.github.io/game-assets/fancypantsadventures/fancypantsadventure.png",
+    "link": "https://spinningchips.github.io/game-assets/fancypantsadventures"
+  },
+  {
+    "title": "Fantasy Dash",
+    "image": "https://spinningchips.github.io/game-assets/fantasy-dash/DF24D85A-B7B5-4CF0-8194-DB6CD89C6975.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/fantasy-dash"
+  },
+  {
+    "title": "Fire Boy and Water Girl in the Forest Temple",
+    "image": "https://spinningchips.github.io/game-assets/fireboywatergirlforesttemple/logo.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/fireboywatergirlforesttemple"
+  },
+  {
+    "title": "Flappy Plane",
+    "image": "https://spinningchips.github.io/game-assets/flappy_plane/E3A4179E-B8E4-4358-BDAD-45AA7637D4D7.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/flappy_plane"
+  },
+  {
+    "title": "Flappy 2048",
+    "image": "https://spinningchips.github.io/game-assets/flappy-2048/meta/apple-touch-icon.png",
+    "link": "https://spinningchips.github.io/game-assets/flappy-2048"
+  },
+  {
+    "title": "Flappy Bird",
+    "image": "https://spinningchips.github.io/game-assets/flappybird/thumb.png",
+    "link": "https://spinningchips.github.io/game-assets/flappybird"
+  },
+  {
+    "title": "Flash Tetris",
+    "image": "https://spinningchips.github.io/game-assets/flashtetris/flashtetris.png",
+    "link": "https://spinningchips.github.io/game-assets/flashtetris"
+  },
+  {
+    "title": "Fleeing the Complex",
+    "image": "https://spinningchips.github.io/game-assets/fleeingthecomplex/a.png",
+    "link": "https://spinningchips.github.io/game-assets/fleeingthecomplex"
   }
 ]
