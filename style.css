@@ -208,8 +208,8 @@ footer {
 
 #create {
     background-color: rgba(9, 46, 47, 1);
-    padding: .5rem 1rem;
-    font-size: 5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 2.5rem;
     color: white;
     text-align: center;
     border-radius: 15px;
@@ -226,8 +226,8 @@ footer {
 
 .play {
     background-color: rgba(9, 46, 47, 1);
-    padding: .5rem 1rem;
-    font-size: 4rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 2rem;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -241,4 +241,11 @@ footer {
 .play:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.6);
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
