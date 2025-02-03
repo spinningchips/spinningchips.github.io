@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spinning Chips</title>
     <link rel="stylesheet" href="style.css">
-    <script src="content/js/game.js" defer></script>
     <meta name="Spinningchips is a unblocked games site with over 300 games."> 
 </head>
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25JY2R3LS"></script>
 <script>
@@ -19,41 +16,43 @@
 
     gtag('config', 'G-H25JY2R3LS');
 </script>
-
 <body>
-
     <nav>
-        <a href="/"><img src="content/img/logo/Logo1.png" alt="Logo" style="height: 50px;"></a>
-        <a href="about/" class="nav-link">About Us</a>
-        <a href="privacy/" class="nav-link">Privacy Policy</a>
+        <a href="/"><img src="/content/img/logo/Logo1.png" alt="Logo" style="height: 50px;"></a>
+        <a href="/about/" class="nav-link">About Us</a>
+        <a href="/privacy/" class="nav-link">Privacy Policy</a>
     </nav>
-
-    
     <header>
         <h1>Spinningchips.com!</h1>
     </header>
-
-    <div class="search-wrapper">
-        <input type="search" id="search" data-search="" placeholder="Search for a game...">
+    <div class="button-wrapper">
+        <button id="create" class="console-button">Play in about:blank</button>
+        <a href="/games/" class="play">Play</a>
+        <h3>What is an about:blank? An about:blank is a web window that won't show up in your history helping you not
+            get in trouble and us staying unblocked. :3</h3>
     </div>
-
-    
-    <div class="user-cards" data-user-cards-container>
-        <template data-user-template>
-            <a class="card">
-                <img class="img" height="100" width="100" data-img>
-                <div class="header" data-header></div>
-            </a>
-        </template>
-    </div>
-
-    
+    <script>
+        var urlObj = new window.URL(window.location.href);
+        document.getElementById("create").onclick = function () {
+            win = window.open();
+            win.document.body.style.margin = "0";
+            win.document.body.style.height = "100vh";
+            var iframe = win.document.createElement("iframe");
+            iframe.style.border = "none";
+            iframe.style.width = "100%";
+            iframe.style.height = "100%";
+            iframe.style.margin = "0";
+            iframe.referrerpolicy = "no-referrer";
+            iframe.allow = "fullscreen";
+            iframe.src = "https://spinningchips.github.io/games/";
+            win.document.body.appendChild(iframe);
+        };
+    </script>
     <footer>
         <div style="background-color: var(--2ndgrey); text-align: center; padding: 1rem;">
             <h4>&copy; 2025 Spinningchips.com. All rights reserved.</h4>
             <a href="/sources/" style="color: #5887ff; text-decoration: none;">Sources</a>
         </div>
     </footer>
-
 </body>
 </html>
