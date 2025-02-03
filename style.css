@@ -207,7 +207,7 @@ footer {
 
 
 #create {
-    background-color: rgb(18, 114, 118);
+    background-color: rgb(0, 100, 100);
     padding: 0.25rem 0.5rem;
     font-size: 2.5rem;
     color: white;
@@ -225,7 +225,7 @@ footer {
 }
 
 .play {
-    background-color: rgb(18, 102, 105);
+    background-color: rgb(9, 72, 74);
     padding: 0.25rem 0.5rem;
     font-size: 2rem;
     color: white;
@@ -253,5 +253,6 @@ footer {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.075);
     padding: 1rem;
+    margin: 3rem;
     border-radius: 20px;
 }
