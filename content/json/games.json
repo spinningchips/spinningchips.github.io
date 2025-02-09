@@ -633,5 +633,50 @@
     "title": "Go Ball",
     "image": "https://spinningchips.github.io/game-assets/go-ball/icon-256.png",
     "link": "https://spinningchips.github.io/game-assets/go-ball"
+  },
+  {
+    "title": "Goodnight",
+    "image": "https://spinningchips.github.io/game-assets/goodnight/goodnight.jpg",
+    "link": "https://spinningchips.github.io/game-assets/goodnight"
+  },
+  {
+    "title": "Google Feud",
+    "image": "https://spinningchips.github.io/game-assets/google-feud/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/google-feud"
+  },
+  {
+    "title": "Google Snake",
+    "image": "https://spinningchips.github.io/game-assets/google-snake/img/snake.png",
+    "link": "https://spinningchips.github.io/game-assets/google-snake"
+  },
+  {
+    "title": "Gravity Soccer",
+    "image": "https://spinningchips.github.io/game-assets/gravity-soccer/icon-256.png",
+    "link": "https://spinningchips.github.io/game-assets/gravity-soccer"
+  },
+  {
+    "title": "Greybox Testing",
+    "image": "https://spinningchips.github.io/game-assets/greybox/ico.png",
+    "link": "https://spinningchips.github.io/game-assets/greybox"
+  },
+  {
+    "title": "Grindcraft",
+    "image": "https://spinningchips.github.io/game-assets/grindcraft/img/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/grindcraft"
+  },
+  {
+    "title": "Hackertype",
+    "image": "https://spinningchips.github.io/game-assets/hackertype/logo192.png",
+    "link": "https://spinningchips.github.io/game-assets/hackertype"
+  },
+  {
+    "title": "Handshakes",
+    "image": "https://spinningchips.github.io/game-assets/handshakes/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/handshakes/"
+  },
+  {
+    "title": "Happy Hop",
+    "image": "https://spinningchips.github.io/game-assets/happy-hop/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/happy-hop/"
   }
 ]
