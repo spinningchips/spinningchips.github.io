@@ -19,8 +19,7 @@ body {
     align-items: center;
     /* Centers content horizontally */
     padding: 0 20px;
-    text-align: center;
-    /* Centers all text */
+    text-align: left;
 }
 
 /* Header */
