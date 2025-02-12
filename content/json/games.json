@@ -683,5 +683,40 @@
     "title": "Happy Hop",
     "image": "https://spinningchips.github.io/game-assets/happy-hop/splash.png",
     "link": "https://spinningchips.github.io/game-assets/happy-hop/"
+  },
+  {
+    "title": "Hardware Tycoon",
+    "image": "https://spinningchips.github.io/game-assets/hardware-tycoon/icon-256.png",
+    "link": "https://spinningchips.github.io/game-assets/hardware-tycoon/"
+  },
+  {
+    "title": "Hover Bot Arena",
+    "image": "https://spinningchips.github.io/game-assets/hba/hoverbotarena.JPG",
+    "link": "https://spinningchips.github.io/game-assets/hba/"
+  },
+  {
+    "title": "Helicopter",
+    "image": "https://spinningchips.github.io/game-assets/helicopter/helicopter.png",
+    "link": "https://spinningchips.github.io/game-assets/helicopter/"
+  },
+  {
+    "title": "Hexempire",
+    "image": "https://spinningchips.github.io/game-assets/hexempire/hexempire.jpg",
+    "link": "https://spinningchips.github.io/game-assets/hexempire/"
+  },
+  {
+    "title": "HexGL",
+    "image": "https://spinningchips.github.io/game-assets/HexGL/icon_256.png",
+    "link": "https://spinningchips.github.io/game-assets/HexGL/"
+  },
+  {
+    "title": "Hextris",
+    "image": "https://spinningchips.github.io/game-assets/hextris/images/hextris-logo.png",
+    "link": "https://spinningchips.github.io/game-assets/hextris/"
+  },
+  {
+    "title": "Hungry-lamu",
+    "image": "https://spinningchips.github.io/game-assets/hungry-lamu/b.png",
+    "link": "https://spinningchips.github.io/game-assets/hungry-lamu/"
   }
 ]
