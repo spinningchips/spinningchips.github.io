@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: 'Arial', sans-serif;
     color: whitesmoke;
@@ -15,32 +13,29 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    /* Keeps content at the top */
+    /* Keeps everything at the top */
     align-items: center;
     /* Centers content horizontally */
     padding: 0 20px;
-    text-align: center;
-    /* Centers all text */
 }
 
-/* Header */
-header {
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #111;
     padding: 15px 25px;
-    background-color: rgba(0, 0, 0, 0.8);
     border-radius: 25px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
     width: 100%;
     max-width: 1200px;
-    margin-top: 1rem;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
-header a {
+nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
@@ -50,25 +45,28 @@ header a {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-header a:hover {
+nav a:hover {
     background-color: #3a6b8a;
     color: #fff;
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Main content */
+
 .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers title, search bar, and cards */
+    margin-top: 5rem;
+    /* Spacing for the title and search bar */
+    flex-grow: 1;
     width: 100%;
     max-width: 1200px;
-    /* Centers content */
-    margin-top: 5rem;
-    padding: 2rem;
-    opacity: 0.9;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* Ensures all content is centered */
+    text-align: center;
 }
 
-/* Heading */
 h1 {
     font-size: 3rem;
     font-weight: 700;
@@ -100,67 +98,14 @@ h3 {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* Footer */
+
 footer {
     text-align: center;
+    background-color: #111;
     padding: 1rem;
     color: whitesmoke;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     width: 100%;
     margin-top: 3rem;
-    opacity: 0.9;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-footer p {
-    font-size: 1rem;
-}
-
-/* Logo */
-header img {
-    height: 50px;
-}
-
-/* Add some margin for header text */
-header div h1 {
-    margin-left: 20px;
-}
-
-.button {
-    background-color: #474747;
-    border: none;
-    color: whitesmoke;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
-    transition: all 0.5s;
-}
-
-.button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-}
-
-.button:hover span {
-    padding-right: 25px;
-}
-
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
 }
