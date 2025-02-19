@@ -715,8 +715,38 @@
     "link": "https://spinningchips.github.io/game-assets/hextris/"
   },
   {
-    "title": "Hungry-lamu",
-    "image": "https://spinningchips.github.io/game-assets/hungry-lamu/b.png",
+    "title": "Hungry Lamu",
+    "image": "https://spinningchips.github.io/game-assets/hungry-lamu/splash.png",
     "link": "https://spinningchips.github.io/game-assets/hungry-lamu/"
+  },
+  {
+    "title": "Ice Age Baby",
+    "image": "https://spinningchips.github.io/game-assets/iceagebaby/thumb.png",
+    "link": "https://spinningchips.github.io/game-assets/iceagebaby/"
+  },
+  {
+    "title": "Idle Breakout",
+    "image": "https://spinningchips.github.io/game-assets/idle-breakout/img/thumbnail.png",
+    "link": "https://spinningchips.github.io/game-assets/idle-breakout/"
+  },
+  {
+    "title": "Idle Shark",
+    "image": "https://spinningchips.github.io/game-assets/idle-shark/img/sharkgame.png",
+    "link": "https://spinningchips.github.io/game-assets/idle-shark/"
+  },
+  {
+    "title": "Impossible Quiz",
+    "image": "https://spinningchips.github.io/game-assets/impossiblequiz/impossiblequiz.png",
+    "link": "https://spinningchips.github.io/game-assets/impossiblequiz/"
+  },
+  {
+    "title": "Interactive Buddy",
+    "image": "https://spinningchips.github.io/game-assets/interactivebuddy/interactivebuddy.jpg",
+    "link": "https://spinningchips.github.io/game-assets/interactivebuddy/"
+  },
+  {
+    "title": "Jetpack Joyride",
+    "image": "https://spinningchips.github.io/game-assets/jetpack-joyride/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/jetpack-joyride/"
   }
 ]
