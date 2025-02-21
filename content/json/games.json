@@ -773,5 +773,25 @@
     "title": "Knife Master",
     "image": "https://spinningchips.github.io/game-assets/knife-master/512x512.jpg",
     "link": "https://spinningchips.github.io/game-assets/knife-master"
+  },
+  {
+    "title": "Learn to Fly",
+    "image": "https://spinningchips.github.io/game-assets/learntofly/learntofly.png",
+    "link": "https://spinningchips.github.io/game-assets/learntofly/"
+  },
+  {
+    "title": "Learn to Fly 2",
+    "image": "https://spinningchips.github.io/game-assets/learntofly2/learn-to-fly-2.jpg",
+    "link": "https://spinningchips.github.io/game-assets/learntofly2/"
+  },
+  {
+    "title": "Learn to Fly 3",
+    "image": "https://spinningchips.github.io/game-assets/learntofly3/logo.png",
+    "link": "https://spinningchips.github.io/game-assets/learntofly3/"
+  },
+  {
+    "title": "Learn to Fly idle",
+    "image": "https://spinningchips.github.io/game-assets/learntoflyidle/thumbnail.jpg",
+    "link": "https://spinningchips.github.io/game-assets/learntoflyidle/"
   }
 ]
