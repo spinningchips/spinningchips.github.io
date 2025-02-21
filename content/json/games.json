@@ -748,5 +748,30 @@
     "title": "Jetpack Joyride",
     "image": "https://spinningchips.github.io/game-assets/jetpack-joyride/splash.jpg",
     "link": "https://spinningchips.github.io/game-assets/jetpack-joyride/"
+  },
+  {
+    "title": "Just Fall",
+    "image": "https://spinningchips.github.io/game-assets/just-fall/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/just-fall/"
+  },
+  {
+    "title": "Just One Boss",
+    "image": "https://spinningchips.github.io/game-assets/just-one-boss/pv1Gr5.png",
+    "link": "https://spinningchips.github.io/game-assets/just-one-boss"
+  },
+  {
+    "title": "Kitchen Gun Game",
+    "image": "https://spinningchips.github.io/game-assets/kitchen-gun-game/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/kitchen-gun-game/"
+  },
+  {
+    "title": "Kitten Cannon",
+    "image": "https://spinningchips.github.io/game-assets/kittencannon/kittencannon.png",
+    "link": "https://spinningchips.github.io/game-assets/kittencannon/"
+  },
+  {
+    "title": "Knife Master",
+    "image": "https://spinningchips.github.io/game-assets/knife-master/512x512.jpg",
+    "link": "https://spinningchips.github.io/game-assets/knife-master"
   }
 ]
