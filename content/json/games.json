@@ -793,5 +793,75 @@
     "title": "Learn to Fly idle",
     "image": "https://spinningchips.github.io/game-assets/learntoflyidle/thumbnail.jpg",
     "link": "https://spinningchips.github.io/game-assets/learntoflyidle/"
+  },
+  {
+    "title": "Level 13",
+    "image": "https://spinningchips.github.io/game-assets/level13/thumb.png",
+    "link": "https://spinningchips.github.io/game-assets/level13/"
+  },
+  {
+    "title": "Madalin Stunt Cars 2",
+    "image": "https://spinningchips.github.io/game-assets/madalin-stunt-cars-2/img/logo.jpg",
+    "link": "https://spinningchips.github.io/game-assets/madalin-stunt-cars-2/"
+  },
+  {
+    "title": "Madalin Stunt Cars 3",
+    "image": "https://spinningchips.github.io/game-assets/madalin-stunt-cars-3/img/index.jpg",
+    "link": "https://spinningchips.github.io/game-assets/madalin-stunt-cars-3/"
+  },
+  {
+    "title": "Mario",
+    "image": "https://spinningchips.github.io/game-assets/mario/Theme/Mario.gif",
+    "link": "https://spinningchips.github.io/game-assets/mario/"
+  },
+  {
+    "title": "Level 13",
+    "image": "https://spinningchips.github.io/game-assets/level13/thumb.png",
+    "link": "https://spinningchips.github.io/game-assets/level13/"
+  },
+  {
+    "title": "Marvin Spectrum",
+    "image": "https://spinningchips.github.io/game-assets/marvinspectrum/marvinspectrum.png",
+    "link": "https://spinningchips.github.io/game-assets/marvinspectrum/"
+  },
+  {
+    "title": "Matrix Rampage",
+    "image": "https://spinningchips.github.io/game-assets/matrixrampage/matrixrampage.jpg",
+    "link": "https://spinningchips.github.io/game-assets/matrixrampage/"
+  },
+  {
+    "title": "Meme 2048",
+    "image": "https://spinningchips.github.io/game-assets/meme2048/img/ceiling_cat.png",
+    "link": "https://spinningchips.github.io/game-assets/meme2048/"
+  },
+  {
+    "title": "Merge Round Racers",
+    "image": "https://spinningchips.github.io/game-assets/merge-round-racers/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/merge-round-racers/"
+  },
+  {
+    "title": "Mineblocks",
+    "image": "https://spinningchips.github.io/game-assets/mineblocks/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/mineblocks/"
+  },
+  {
+    "title": "Minecraft 1.5",
+    "image": "https://spinningchips.github.io/game-assets/minecraft-15/splash.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/minecraft-15/"
+  },
+  {
+    "title": "Minecraft 1.8",
+    "image": "https://spinningchips.github.io/game-assets/minecraft-18/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/minecraft-18/"
+  },
+  {
+    "title": "Minecraft Classic",
+    "image": "https://spinningchips.github.io/game-assets/minecraft-classic/pack.png",
+    "link": "https://spinningchips.github.io/game-assets/minecraft-classic/"
+  },
+  {
+    "title": "Minecraft Beta",
+    "image": "https://spinningchips.github.io/game-assets/minecraftbeta/bg_main.png",
+    "link": "https://spinningchips.github.io/game-assets/minecraftbeta/"
   }
 ]
