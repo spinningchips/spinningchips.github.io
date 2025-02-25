@@ -863,5 +863,75 @@
     "title": "Minecraft Beta",
     "image": "https://spinningchips.github.io/game-assets/minecraftbeta/bg_main.png",
     "link": "https://spinningchips.github.io/game-assets/minecraftbeta/"
+  },
+  {
+    "title": "Minesweeper",
+    "image": "https://spinningchips.github.io/game-assets/minesweeper/img/minesweeper.png",
+    "link": "https://spinningchips.github.io/game-assets/minesweeper/"
+  },
+  {
+    "title": "Miniputt",
+    "image": "https://spinningchips.github.io/game-assets/miniputt/miniputt.png",
+    "link": "https://spinningchips.github.io/game-assets/miniputt/"
+  },
+  {
+    "title": "Missiles",
+    "image": "https://spinningchips.github.io/game-assets/missiles/miss.png",
+    "link": "https://spinningchips.github.io/game-assets/missiles/"
+  },
+  {
+    "title": "Monkey Mart",
+    "image": "https://spinningchips.github.io/game-assets/monkeymart/monkey-mart.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/monkeymart/"
+  },
+  {
+    "title": "Monster Tracks",
+    "image": "https://spinningchips.github.io/game-assets/monster-tracks/thumb.jpg",
+    "link": "https://spinningchips.github.io/game-assets/monster-tracks/"
+  },
+  {
+    "title": "Moto X3M",
+    "image": "https://spinningchips.github.io/game-assets/motox3m/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/motox3m/"
+  },
+  {
+    "title": "Moto X3M Pool",
+    "image": "https://spinningchips.github.io/game-assets/motox3m-pool/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/motox3m-pool/"
+  },
+  {
+    "title": "Moto X3M Spooky",
+    "image": "https://spinningchips.github.io/game-assets/motox3m-spooky/splash.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/motox3m-spooky/"
+  },
+  {
+    "title": "Moto X3M Winter",
+    "image": "https://spinningchips.github.io/game-assets/motox3m-winter/download.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/motox3m-winter/"
+  },
+  {
+    "title": "Moto X3M 2",
+    "image": "https://spinningchips.github.io/game-assets/motox3m2/image.png",
+    "link": "https://spinningchips.github.io/game-assets/motox3m2/"
+  },
+  {
+    "title": "My Rusty Submarine",
+    "image": "https://spinningchips.github.io/game-assets/my-rusty-submarine/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/my-rusty-submarine/"
+  },
+  {
+    "title": "N-gon",
+    "image": "https://spinningchips.github.io/game-assets/n-gon/bot.png",
+    "link": "https://spinningchips.github.io/game-assets/n-gon/"
+  },
+  {
+    "title": "Ninja VS Evilcorp",
+    "image": "https://spinningchips.github.io/game-assets/ninjavsevilcorp/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/ninjavsevilcorp/"
+  },
+  {
+    "title": "Noob Steve Parkour",
+    "image": "https://spinningchips.github.io/game-assets/noob-steve-parkour/512x512.jpg",
+    "link": "https://spinningchips.github.io/game-assets/noob-steve-parkour/"
   }
 ]
