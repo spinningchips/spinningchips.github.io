@@ -1000,8 +1000,58 @@
     "link": "https://spinningchips.github.io/game-assets/rabbit-samurai/"
   },
   {
-    "title": "Rabbit Samurai 2",
-    "image": "https://spinningchips.github.io/game-assets/rabbit-samurai2/splash.png",
-    "link": "https://spinningchips.github.io/game-assets/rabbit-samurai2/"
+    "title": "Resent Client",
+    "image": "https://spinningchips.github.io/game-assets/resent-client/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/resent-client/"
+  },
+  {
+    "title": "Retro Bowl",
+    "image": "https://spinningchips.github.io/game-assets/retro-bowl/img/icon.jpg",
+    "link": "https://spinningchips.github.io/game-assets/retro-bowl/"
+  },
+  {
+    "title": "Riddle School",
+    "image": "https://spinningchips.github.io/game-assets/riddleschool/riddleschool.png",
+    "link": "https://spinningchips.github.io/game-assets/riddleschool/"
+  },
+  {
+    "title": "Riddle School 2",
+    "image": "https://spinningchips.github.io/game-assets/riddleschool2/riddleschool2.png",
+    "link": "https://spinningchips.github.io/game-assets/riddleschool2/"
+  },
+  {
+    "title": "Riddle School 3",
+    "image": "https://spinningchips.github.io/game-assets/riddleschool3/riddleschool3.png",
+    "link": "https://spinningchips.github.io/game-assets/riddleschool3/"
+  },
+  {
+    "title": "Riddle School 4",
+    "image": "https://spinningchips.github.io/game-assets/riddleschool4/riddleschool4.png",
+    "link": "https://spinningchips.github.io/game-assets/riddleschool4/"
+  },
+  {
+    "title": "Riddle School 5",
+    "image": "https://spinningchips.github.io/game-assets/riddleschool5/riddleschool5.png",
+    "link": "https://spinningchips.github.io/game-assets/riddleschool5/"
+  },
+  {
+    "title": "Riddle Transfer",
+    "image": "https://spinningchips.github.io/game-assets/riddletransfer/riddletransfer.png",
+    "link": "https://spinningchips.github.io/game-assets/riddletransfer/"
+  },
+  {
+    "title": "Riddle Transfer 2",
+    "image": "https://spinningchips.github.io/game-assets/riddletransfer2/riddletransfer2.png",
+    "link": "https://spinningchips.github.io/game-assets/riddletransfer2/"
+  },
+  {
+    "title": "Rocket League",
+    "image": "https://spinningchips.github.io/game-assets/Rocket-League/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/Rocket-League/"
+  },
+  {
+    "title": "Rocketpult",
+    "image": "https://spinningchips.github.io/game-assets/rocketpult/splash.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/rocketpult/"
   }
 ]
