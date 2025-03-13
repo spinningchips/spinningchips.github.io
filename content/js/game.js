@@ -63,7 +63,7 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
 searchInput.addEventListener('input', (e) => {
     const value = e.target.value
     users.forEach((user) => {
-        const isVisible = user.title.toLowerCase().includes(value)
+        const isVisible = user.title.toLowerCase().includes(value.toLowerCase())
         user.element.classList.toggle('hide', !isVisible)
     })
 })
