@@ -50,7 +50,8 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
         header.textContent = user.title
         //card.textContent = user.title
         card.href = user.link
-        card.onClick = function() {setCookie("url", user.link, 365);};
+        // card.onClick = function() {setCookie("url", user.link, 365);};
+        card.addEventListener("click", setCookie("url", user.link, 365));
         img.src = user.image
         userCardContainer.append(card)
 
