@@ -46,16 +46,15 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
         const header = card.querySelector("[data-header]")
         const img = card.querySelector("[data-img]")
 
-        // adding content into the query selected i.e header and body
         header.textContent = user.title
-        //card.textContent = user.title
         card.href = user.link
         // card.onClick = function() {setCookie("url", user.link, 365);};
-        card.addEventListener("click", setCookie("url", user.link, 365));
+        card.addEventListener("click", function() {
+            setCookie("url", user.link, 365);
+        });
         img.src = user.image
         userCardContainer.append(card)
 
-        // return the result after successfull fetch
         return {title: user.title, Imgdescription: user.image,  description: user.link, element: card}
     });
 
