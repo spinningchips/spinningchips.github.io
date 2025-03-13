@@ -22,7 +22,7 @@ function getCookie(cname) {
 }
 
 
-function checkCookie() {
+function loadGame() {
     let url = getCookie("url");
     if (url != "") {
         alert("Going to " + url);
