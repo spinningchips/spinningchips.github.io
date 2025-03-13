@@ -4,6 +4,13 @@ const searchInput = document.querySelector("[data-search]")
 
 let users = []
 
+function setCookie(cname, cvalue, exdays) {
+    const d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
 fetch("/content/json/games.json").then((res) => res.json()).then(data => {
     users = data.map(user=> {
         const card = userCardTemplate.content.cloneNode(true).children[0]
@@ -14,6 +21,7 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
         header.textContent = user.title
         //card.textContent = user.title
         card.href = user.link
+        card.onClick = "setCookie(url, user.link, 365);"
         img.src = user.image
         userCardContainer.append(card)
 
