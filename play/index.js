@@ -32,7 +32,7 @@ function checkCookie() {
     } else {
         url = prompt("Please enter your url:", "");
         if (url != "" && url != null) {
-            setCookie("url", user, 365);
+            setCookie("url", url, 365);
         }
     }
 }
