@@ -23,16 +23,16 @@ function getCookie(cname) {
 
 
 function checkCookie() {
-    let url = getCookie("url");
-    if (url != "") {
-        alert("Going to " + url);
+    let user = getCookie("username");
+    if (user != "") {
+        alert("Welcome again " + user);
         document.getElementById('gameviewer').width = 1000;
         document.getElementById('gameviewer').height = 600;
-        document.getElementById('gameviewer').src = url;
+        document.getElementById('gameviewer').src = user;
     } else {
-        url = prompt("Please enter your url:", "");
-        if (url != "" && url != null) {
-            setCookie("url", url, 365);
+        user = prompt("Please enter your name:","");
+        if (user != "" && user != null) {
+        setCookie("username", user, 30);
         }
     }
 }
