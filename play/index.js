@@ -25,8 +25,6 @@ function getCookie(cname) {
 function loadGame() {
     let url = getCookie("url");
     if (url != "") {
-        document.getElementById('game').width = 1000;
-        document.getElementById('game').height = 600;
         document.getElementById('game').src = url;
     } else {
         window.location.replace("https://spinningchips.lol/games/");

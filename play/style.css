@@ -78,17 +78,12 @@ h1:hover {
 }
 
 .bar button {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.1rem;
-    padding: 10px 20px;
-    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .bar button:hover {
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
