@@ -32,3 +32,7 @@ function loadGame() {
         window.location.replace("https://spinningchips.lol/games/");
     }
 }
+
+function iframefull() {
+    document.getElementById("game").requestFullscreen();
+}
