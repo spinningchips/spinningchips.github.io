@@ -70,6 +70,36 @@ h1:hover {
     left: 0;
 }
 
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    background-color: #111;
+    padding: 15px 25px;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 1200px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
 
 footer {
     text-align: center;
