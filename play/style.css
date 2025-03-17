@@ -74,7 +74,11 @@ h1:hover {
     max-width: 1200px;
     position: sticky;
     top: 0;
-    z-index: 100;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bar:hover {
+    transform: scale(1.05);
 }
 
 .bar button {
