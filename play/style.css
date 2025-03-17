@@ -62,12 +62,13 @@ h1:hover {
 }
 
 .bar {
+    text-align: center;
     font-size: 3rem;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111;
+    background-color: #303030;
     border-radius: 25px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
     width: 100%;
