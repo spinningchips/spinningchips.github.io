@@ -28,7 +28,6 @@ nav {
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
     width: 100%;
     max-width: 1200px;
-    position: sticky;
     top: 0;
     z-index: 100;
 }
@@ -77,8 +76,9 @@ h1:hover {
 }
 
 .bar button {
+    background-color: #303030;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    right: 100%;
+    left: 100%;
 }
 
 .bar button:hover {
