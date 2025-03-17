@@ -62,7 +62,8 @@ h1:hover {
 }
 
 .bar {
-    color: aliceblue;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
