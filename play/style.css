@@ -64,14 +64,13 @@ h1:hover {
 .bar {
     text-align: center;
     font-size: 3rem;
-    color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
+    color: rgb(208, 208, 208);
+    display: inline-block;
+    padding: 1rem;
     background-color: #303030;
     border-radius: 25px;
     box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
     width: 100%;
-    max-width: 1200px;
     position: sticky;
     top: 0;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
