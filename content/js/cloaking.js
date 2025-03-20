@@ -1,5 +1,5 @@
 const searchInput = document.querySelector("[fav-icon]")
-
+const value = e.target.value
 
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
@@ -34,13 +34,18 @@ function Cloak() {
 }
 
 searchInput.addEventListener('input', (e) => {
-    const value = e.target.value
+    value = e.target.value
 })
 
 function SetIcon() {
     if (value != "") {
         setCookie("fav", value, 30000)
     }
+}
+
+function TestIcon() {
+    let fav = getCookie("fav")
+    alert(fav)
 }
 
 document.addEventListener('DOMContentLoaded', function () {

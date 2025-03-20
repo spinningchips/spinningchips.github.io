@@ -74,6 +74,38 @@ h1:hover {
     transform: scale(1.1);
 }
 
+
+.search-wrapper {
+    text-align: center;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-wrapper input {
+    padding: 1rem;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: whitesmoke;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.search-wrapper input:focus {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+
 footer {
     text-align: center;
     background-color: #111;
