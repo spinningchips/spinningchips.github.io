@@ -10,35 +10,6 @@ function setCookie(cname, cvalue, exdays) {
     let expires = "expires=" + d.toUTCString();
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
-function getCookie(cname) {
-    let name = cname + "=";
-    let ca = document.cookie.split(';');
-    for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-function checkCookie() {
-    let url = getCookie("url");
-    if (url != "") {
-        alert("Going to " + url);
-        document.getElementById('game').width = 1000;
-        document.getElementById('game').height = 600;
-        document.getElementById('game').src = url;
-    } else {
-        url = prompt("Please enter your url:", "");
-        if (url != "" && url != null) {
-            setCookie("url", url, 365);
-        }
-    }
-}
 
 fetch("/content/json/games.json").then((res) => res.json()).then(data => {
     users = data.map(user=> {

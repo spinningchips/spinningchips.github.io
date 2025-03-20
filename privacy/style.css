@@ -13,9 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    /* Keeps everything at the top */
     align-items: center;
-    /* Centers content horizontally */
     padding: 0 20px;
 }
 

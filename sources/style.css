@@ -13,9 +13,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    /* Keeps everything at the top */
     align-items: center;
-    /* Centers content horizontally */
     padding: 0 20px;
 }
 
@@ -52,31 +50,18 @@ nav a:hover {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
-
-.main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Centers title, search bar, and cards */
-    margin-top: 5rem;
-    /* Spacing for the title and search bar */
-    flex-grow: 1;
-    width: 100%;
-    max-width: 1200px;
-    /* Ensures all content is centered */
-    text-align: center;
-}
-
 h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2rem;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #fff;
 }
 
 h1:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 footer {
