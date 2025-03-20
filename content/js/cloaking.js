@@ -1,3 +1,6 @@
+const searchInput = document.querySelector("[fav-icon]")
+
+
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -27,6 +30,16 @@ function Cloak() {
         favicon.href = fav;
     } else {
         return
+    }
+}
+
+searchInput.addEventListener('input', (e) => {
+    const value = e.target.value
+})
+
+function SetIcon() {
+    if (value != "") {
+        setCookie("fav", value, 30000)
     }
 }
 
