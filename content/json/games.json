@@ -1177,11 +1177,91 @@
   {
     "title": "Soccer Skills",
     "image": "https://spinningchips.github.io/game-assets/soccer-skills/splash.png",
-    "link": "https://spinningchips.github.io/game-assets/soccer-skills/"
+    "link": "https://spinningchips.github.io/game-assets/socacer-skills/"
   },
   {
     "title": "Soldier Legend",
     "image": "https://spinningchips.github.io/game-assets/soldier-legend/images/splash.jpeg",
     "link": "https://spinningchips.github.io/game-assets/soldier-legend/"
+  },
+  {
+    "title": "Solitaire",
+    "image": "https://spinningchips.github.io/game-assets/solitaire/screen-shot-win.png",
+    "link": "https://spinningchips.github.io/game-assets/solitaire/"
+  },
+  {
+    "title": "Sort the Court",
+    "image": "https://spinningchips.github.io/game-assets/sort-the-court/img/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/sort-the-court/"
+  },
+  {
+    "title": "Soundboard",
+    "image": "https://spinningchips.github.io/game-assets/soundboard/img/mlg-favicon.png",
+    "link": "https://spinningchips.github.io/game-assets/soundboard/"
+  },
+  {
+    "title": "Space Company",
+    "image": "https://spinningchips.github.io/game-assets/space-company/whiteLogo.png",
+    "link": "https://spinningchips.github.io/game-assets/space-company/"
+  },
+  {
+    "title": "Space Garden",
+    "image": "https://spinningchips.github.io/game-assets/spacegarden/spl.png",
+    "link": "https://spinningchips.github.io/game-assets/spacegarden/"
+  },
+  {
+    "title": "Spelunky",
+    "image": "https://spinningchips.github.io/game-assets/spelunky/assets/icon.png",
+    "link": "https://spinningchips.github.io/game-assets/spelunky/"
+  },
+  {
+    "title": "Spinning Rat",
+    "image": "https://spinningchips.github.io/game-assets/spinningrat/apple-touch-icon.png",
+    "link": "https://spinningchips.github.io/game-assets/spinningrat/"
+  },
+  {
+    "title": "Stack",
+    "image": "https://spinningchips.github.io/game-assets/stack/stack.png",
+    "link": "https://spinningchips.github.io/game-assets/stack/"
+  },
+  {
+    "title": "Stack Bump 3D",
+    "image": "https://spinningchips.github.io/game-assets/stack-bump-3d/thumbnail.jpg",
+    "link": "https://spinningchips.github.io/game-assets/stack-bump-3d/"
+  },
+  {
+    "title": "Star Fox",
+    "image": "https://spinningchips.github.io/game-assets/starFox/icon.jpg",
+    "link": "https://spinningchips.github.io/game-assets/starFox/"
+  },
+  {
+    "title": "Station 141",
+    "image": "https://spinningchips.github.io/game-assets/station-141/icon.png",
+    "link": "https://spinningchips.github.io/game-assets/station-141/"
+  },
+  {
+    "title": "Stealing The Diamond",
+    "image": "https://spinningchips.github.io/game-assets/stealingthediamond/stealingthediamond.jpg",
+    "link": "https://spinningchips.github.io/game-assets/stealingthediamond/"
+  },
+  {
+    "title": "Stick Duel Battle",
+    "image": "https://spinningchips.github.io/game-assets/stick-duel-battle/512x512.jpg",
+    "link": "https://spinningchips.github.io/game-assets/stick-duel-battle/"
+  },
+  {
+    "title": "Stick Merge",
+    "image": "https://spinningchips.github.io/game-assets/stick-merge/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/stick-merge/"
+  },
+  {
+    "title": "Stickman Boost",
+    "image": "https://spinningchips.github.io/game-assets/stickman-boost/icon-256.png",
+    "link": "https://spinningchips.github.io/game-assets/stickman-boost/"
+  },
+  {
+    "title": "Stickman Golf",
+    "image": "https://spinningchips.github.io/game-assets/stickman-golf/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/stickman-golf/"
   }
 ]
