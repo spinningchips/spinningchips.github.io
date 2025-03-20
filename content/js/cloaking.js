@@ -39,13 +39,13 @@ searchInput.addEventListener('input', (e) => {
 
 function SetIcon() {
     if (value != "") {
-        setCookie("fav", value, 30000)
+        setCookie("fav", value, 30000);
     }
 }
 
 function TestIcon() {
-    let fav = getCookie("fav")
-    alert(fav)
+    let fav = getCookie("fav");
+    alert(fav);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
