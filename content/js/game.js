@@ -18,7 +18,7 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
         const img = card.querySelector("[data-img]")
 
         header.textContent = user.title
-        card.href = user.link
+        card.href = "/play"
         // card.onClick = function() {setCookie("url", user.link, 365);};
         card.addEventListener("click", function() {
             setCookie("url", user.link, 365);
