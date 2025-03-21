@@ -1,5 +1,5 @@
-const searchInput = document.querySelector("[fav-icon]")
-const value = e.target.value
+const searchInput = document.getElementById('search');
+let value = ""
 
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
@@ -38,8 +38,10 @@ searchInput.addEventListener('input', (e) => {
 })
 
 function SetIcon() {
+    alert(value);
     if (value != "") {
-        setCookie("fav", value, 30000);
+        setCookie("fav", value, 365);
+
     }
 }
 
