@@ -36,9 +36,6 @@ function setIconAndText() {
     var y = document.getElementById("Tab-text").value;
     if (x != "") {
         document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x;
-        Cloak();
-    }
-    if (y != "") {
         document.cookie = "tabtext=" + y;
         Cloak();
     }
