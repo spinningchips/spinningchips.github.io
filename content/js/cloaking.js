@@ -28,6 +28,7 @@ function Cloak() {
     if (fav != "") {
         favicon = document.getElementById('favicon');
         favicon.href = fav;
+        document.title = text
     } else if (text != "") {
         document.title = text
     }
