@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
 }
 
 body {
@@ -16,22 +17,6 @@ body {
     align-items: center;
     padding: 0 20px;
     text-align: center;
-    
-    a:link {
-        color: rgb(9, 217, 245);
-      }
-      
-      a:visited {
-        color: rgb(181, 213, 255);
-      }
-      
-      a:hover {
-        color: rgb(134, 217, 255);
-      }
-      
-      a:active {
-        color: rgb(140, 194, 245);
-      }
 }
 
 
@@ -124,3 +109,19 @@ footer {
     width: 100%;
     margin-top: 3rem;
 }
+
+a:link {
+    color: rgb(9, 217, 245);
+  }
+  
+  a:visited {
+    color: rgb(181, 213, 255);
+  }
+  
+  a:hover {
+    color: rgb(134, 217, 255);
+  }
+  
+  a:active {
+    color: rgb(140, 194, 245);
+  }
