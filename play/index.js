@@ -31,6 +31,12 @@ function loadGame() {
     }
 }
 
+document.addEventListener("keydown", function(event) {
+    if (event.code === "KeyF") {
+        iframefull();
+    }
+});
+
 function iframefull() {
     document.getElementById("game").requestFullscreen();
     document.getElementById("game").mozRequestFullScreen();

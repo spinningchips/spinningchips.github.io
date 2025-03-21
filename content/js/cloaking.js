@@ -1,6 +1,3 @@
-const searchInput = document.getElementById('search');
-let value = ""
-
 function setCookie(cname, cvalue, exdays) {
     const d = new Date();
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -24,8 +21,9 @@ function getCookie(cname) {
 }
 
 function Cloak() {
-    let fav = getCookie("fav");
+    let fav = getCookie("tabicon");
     if (fav != "") {
+        alert(fav)
         favicon = document.getElementById('favicon');
         favicon.href = fav;
     } else {
@@ -38,15 +36,18 @@ searchInput.addEventListener('input', (e) => {
 })
 
 function setIcon() {
-    alert("set");
-    if (value != "") {
-        setCookie("fav", value, 365);
+	var x = document.getElementById("search").value;
+    alert(x);
+    if (x != "") {
+        document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x;
+        setCookie("fav", x, 365);
+        Cloak();
     }
 }
 
 function testIcon() {
-    let fav = getCookie("fav");
-    alert("test");
+    let fav = getCookie("tabicon");
+    alert(fav);
 }
 
 document.addEventListener('DOMContentLoaded', function () {
