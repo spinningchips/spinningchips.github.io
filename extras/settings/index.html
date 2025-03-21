@@ -6,7 +6,7 @@
     <title>Spinning Chips | Settings</title>
     <link rel="stylesheet" href="style.css">
     <script src="/content/js/game.js" defer></script>
-    <script src="/content/js/cloaking.js" defer></script>
+    <script src="/content/js/cloaking.js"></script>
     <link rel="icon" id="favicon" type="image/x-icon" href="/content/img/logo/favicon.ico">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
 </head>
@@ -22,7 +22,7 @@
     gtag('config', 'G-H25JY2R3LS');
 </script>
 
-<body onload="Cloak()">
+<body>
     <nav>
         <a href="/"><img src="/content/img/logo/LogoTrans.png" alt="Logo" style="height: 50px;"></a>
         <a href="/about/" class="nav-link">About Us</a>
@@ -32,8 +32,8 @@
         <h1>Extras</h1>
     </header>
     <div class="search-wrapper">
-        <input type="search" id="search" fav-icon="" placeholder="Enter Favicon URL">
+        <input type="search" id="search" fav-icon="" placeholder="Enter New Site Favicon URL">
+        <input type="search" id="Tab-text" fav-icon="" placeholder="Enter New Tab Text">
     </div>
-    <button onclick="setIcon();">SET</button>
-    <button onclick="testIcon();">TEST</button>
+    <button onclick="setIconAndText();">SET</button>
 </body>

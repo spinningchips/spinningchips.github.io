@@ -21,33 +21,27 @@ function getCookie(cname) {
 }
 
 function Cloak() {
+    let text = getCookie("tabtext");
     let fav = getCookie("tabicon");
     if (fav != "") {
-        alert(fav)
         favicon = document.getElementById('favicon');
         favicon.href = fav;
-    } else {
-        return
+    } else if (text != "") {
+        document.title = text
     }
 }
 
-searchInput.addEventListener('input', (e) => {
-    value = e.target.value
-})
-
-function setIcon() {
+function setIconAndText() {
 	var x = document.getElementById("search").value;
-    alert(x);
+    var y = document.getElementById("Tab-text").value;
     if (x != "") {
         document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x;
-        setCookie("fav", x, 365);
         Cloak();
     }
-}
-
-function testIcon() {
-    let fav = getCookie("tabicon");
-    alert(fav);
+    if (y != "") {
+        document.cookie = "tabtext=" + y;
+        Cloak();
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
