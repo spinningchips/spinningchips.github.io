@@ -74,19 +74,3 @@ footer {
     width: 100%;
     margin-top: 3rem;
 }
-
-a:link {
-    color: rgb(9, 217, 245);
-  }
-  
-  a:visited {
-    color: rgb(12, 76, 160);
-  }
-  
-  a:hover {
-    color: rgb(134, 217, 255);
-  }
-  
-  a:active {
-    color: rgb(9, 98, 180);
-  }
