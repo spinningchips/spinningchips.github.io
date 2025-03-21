@@ -37,17 +37,16 @@ searchInput.addEventListener('input', (e) => {
     value = e.target.value
 })
 
-function SetIcon() {
-    v
+function setIcon() {
+    alert("set");
     if (value != "") {
         setCookie("fav", value, 365);
-
     }
 }
 
-function TestIcon() {
+function testIcon() {
     let fav = getCookie("fav");
-    alert(fav);
+    alert("test");
 }
 
 document.addEventListener('DOMContentLoaded', function () {
