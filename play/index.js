@@ -33,4 +33,7 @@ function loadGame() {
 
 function iframefull() {
     document.getElementById("game").requestFullscreen();
+    document.getElementById("game").mozRequestFullScreen();
+    document.getElementById("game").webkitRequestFullscreen();
+    document.getElementById("game").msRequestFullscreen();
 }
