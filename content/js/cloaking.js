@@ -33,14 +33,12 @@ function Cloak() {
 function setIconAndText() {
     var x = document.getElementById("search").value;
     var y = document.getElementById("Tab-text").value;
-    alert(x)
-    alert(y)
     document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x + ";path=/";
     document.cookie = "tabtext=" + y + ";path=/";
     Cloak();
 }
 
-function Clear() {
+function clear() {
     document.cookie = "tabicon=" + ";path=/";
     document.cookie = "tabtext=" + ";path=/";
 }
