@@ -38,7 +38,7 @@ searchInput.addEventListener('input', (e) => {
 })
 
 function SetIcon() {
-    alert(value);
+    v
     if (value != "") {
         setCookie("fav", value, 365);
 
