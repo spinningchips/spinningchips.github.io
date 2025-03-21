@@ -27,8 +27,6 @@ function Cloak() {
         favicon = document.getElementById('favicon');
         favicon.href = fav;
         document.title = text
-    } else if (text != "") {
-        document.title = text
     }
 }
 
@@ -37,9 +35,14 @@ function setIconAndText() {
     var y = document.getElementById("Tab-text").value;
     alert(x)
     alert(y)
-    document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x;
-    document.cookie = "tabtext=" + y;
+    document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x + ";path=/";
+    document.cookie = "tabtext=" + y + ";path=/";
     Cloak();
+}
+
+function Clear() {
+    document.cookie = "tabicon=" + ";path=/";
+    document.cookie = "tabtext=" + ";path=/";
 }
 
 document.addEventListener('DOMContentLoaded', function () {
