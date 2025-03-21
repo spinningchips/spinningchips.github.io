@@ -23,6 +23,8 @@ function getCookie(cname) {
 function Cloak() {
     let text = getCookie("tabtext");
     let fav = getCookie("tabicon");
+    alert(text)
+    alert(fav)
     if (fav != "") {
         favicon = document.getElementById('favicon');
         favicon.href = fav;
@@ -34,6 +36,8 @@ function Cloak() {
 function setIconAndText() {
 	var x = document.getElementById("search").value;
     var y = document.getElementById("Tab-text").value;
+    alert(x)
+    alert(y)
     if (x != "") {
         document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x;
         document.cookie = "tabtext=" + y;
