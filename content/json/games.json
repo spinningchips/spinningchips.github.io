@@ -84,6 +84,36 @@
     "desc": "A fast-paced racing game set in exotic locations filled with obstacles, boosts, and power-ups. Players can upgrade their cars and compete in thrilling races to become the ultimate champion. The colorful graphics and engaging mechanics make it a fun arcade-style experience."
   },
   {
+    "title": "Ages of Conflict",
+    "image": "https://spinningchips.github.io/game-assets/ages-of-conflict/splash.jpg",
+    "link": "https://spinningchips.github.io/game-assets/ages-of-conflict",
+    "desc": "A strategy game where nations battle for dominance."
+  },
+  {
+    "title": "Alien Hominid",
+    "image": "https://spinningchips.github.io/game-assets/alienhominid/alienhominid.jpg",
+    "link": "https://spinningchips.github.io/game-assets/alienhominid",
+    "desc": "A classic run-and-gun alien adventure."
+  },
+  {
+    "title": "Align 4",
+    "image": "https://spinningchips.github.io/game-assets/align-4/board.png",
+    "link": "https://spinningchips.github.io/game-assets/align-4",
+    "desc": "A digital version of the Connect 4 game."
+  },
+  {
+    "title": "Amazing Rope Police",
+    "image": "https://spinningchips.github.io/game-assets/amazing-rope-police/splash.jpeg",
+    "link": "https://spinningchips.github.io/game-assets/amazing-rope-police",
+    "desc": "A GTA-style action game with rope mechanics."
+  },
+  {
+    "title": "Amidst the Clouds",
+    "image": "https://spinningchips.github.io/game-assets/amidst-the-clouds/splash.png",
+    "link": "https://spinningchips.github.io/game-assets/amidst-the-clouds",
+    "desc": "A beautiful puzzle platformer set in the sky."
+  },
+  {
     "title": "Among Us",
     "image": "https://spinningchips.github.io/game-assets/among-us/red.png",
     "link": "https://spinningchips.github.io/game-assets/among-us",
@@ -946,6 +976,12 @@
     "image": "https://spinningchips.github.io/game-assets/mario/Theme/Mario.gif",
     "link": "https://spinningchips.github.io/game-assets/mario/",
     "desc": "A fan-made version of the classic Super Mario Bros platformer with nostalgic gameplay."
+  },
+  {
+    "title": "Level 13",
+    "image": "https://spinningchips.github.io/game-assets/level13/thumb.png",
+    "link": "https://spinningchips.github.io/game-assets/level13/",
+    "desc": "A challenging puzzle game where you must solve tricky levels and find your way to victory in Level 13."
   },
   {
     "title": "Marvin Spectrum",
