@@ -96,6 +96,22 @@ h1:hover {
     max-height: 90vh;
 }
 
+
+.descBar {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(208, 208, 208);
+    display: inline-block;
+    padding: 1rem;
+    background-color: #303030;
+    border-radius: 25px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 footer {
     text-align: center;
     background-color: #111;

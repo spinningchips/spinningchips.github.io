@@ -22,11 +22,12 @@ fetch("/content/json/games.json").then((res) => res.json()).then(data => {
         // card.onClick = function() {setCookie("url", user.link, 365);};
         card.addEventListener("click", function() {
             setCookie("url", user.link, 365);
+            setCookie("desc", user.desc, 365);
         });
         img.src = user.image
         userCardContainer.append(card)
 
-        return {title: user.title, Imgdescription: user.image,  description: user.link, element: card}
+        return {title: user.title, Imgdescription: user.image,  Link: user.link, description: user.desc, element: card}
     });
 
 })

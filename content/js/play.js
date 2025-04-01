@@ -24,8 +24,10 @@ function getCookie(cname) {
 
 function loadGame() {
     let url = getCookie("url");
+    let desc = getCookie("desc");
     if (url != "") {
         document.getElementById('game').src = url;
+        document.getElementById("desc").innerHTML = desc;
     } else {
         window.location.replace("https://spinningchips.lol/games/");
     }

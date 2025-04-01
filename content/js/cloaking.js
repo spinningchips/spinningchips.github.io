@@ -39,8 +39,9 @@ function setIconAndText() {
 }
 
 function clear() {
-    document.cookie = "tabicon=" + ";path=/";
-    document.cookie = "tabtext=" + ";path=/";
+    document.cookie = "tabicon=" + "" + ";path=/";
+    document.cookie = "tabtext=" + "" + ";path=/";
+    Cloak();
 }
 
 document.addEventListener('DOMContentLoaded', function () {
