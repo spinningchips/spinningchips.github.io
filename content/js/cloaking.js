@@ -39,8 +39,8 @@ function setIconAndText() {
 }
 
 function clear() {
-    document.cookie = "tabicon=" + "" + ";path=/";
-    document.cookie = "tabtext=" + "" + ";path=/";
+    document.cookie = "tabicon=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+    document.cookie = "tabtext=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
     Cloak();
 }
 
