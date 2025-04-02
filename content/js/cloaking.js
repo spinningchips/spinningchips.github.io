@@ -23,10 +23,14 @@ function getCookie(cname) {
 function Cloak() {
     let text = getCookie("tabtext");
     let fav = getCookie("tabicon");
-    if (fav != "") {
+    if (fav != "" || text != "") {
         favicon = document.getElementById('favicon');
         favicon.href = fav;
         document.title = text
+    }
+    else
+    {
+        return;
     }
 }
 
@@ -35,12 +39,14 @@ function setIconAndText() {
     var y = document.getElementById("Tab-text").value;
     document.cookie = "tabicon=https://s2.googleusercontent.com/s2/favicons?domain_url=" + x + ";path=/";
     document.cookie = "tabtext=" + y + ";path=/";
+    alert("Set");
     Cloak();
 }
 
 function clear() {
     document.cookie = "tabicon=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
     document.cookie = "tabtext=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+    alert("Cleared");
     Cloak();
 }
 
